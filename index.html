@@ -8,8 +8,8 @@
 
     <!-- GOOGLE FONTS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <!-- FONTAWESOME  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,6 +20,9 @@
     <!-- owl carousel  -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- Magnific Popup  -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
 
     <!-- MAIN CSS  -->
     <link rel="stylesheet" href="./css/style.css">
@@ -437,15 +440,18 @@
         </div>
       </div>
     </section>
-    <section class="testimonial">
+
+    <section class="testimonial sectionStyle">
       <div class="testimonial__content">
+        <div class="title">
+          <h6>Testimonials</h6>
+          <h3>What People Say</h3>
+        </div>
         <div class="owl-carousel owl-theme">
           <div class="item testimonial__item">
             <a href="">
               <img src="./img/team1.jpg" alt="">
             </a>
-            
-            <i class="fa-solid fa-quote-left"></i>
             <h3>OMG! I cannot believe. It's Awesome"</h3>
             <p>My new site is so much faster and easier to work with than my old site. They are here to
               help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
@@ -453,17 +459,124 @@
             <h4>Johnson william</h4>
             <h5>Customer</h5>
           </div>
-          <div class="item"><h4>2</h4></div>
-          <div class="item"><h4>3</h4></div>
-          <div class="item"><h4>4</h4></div>
-      </div>
-      </div>
-      
-       
-    
+          <div class="item testimonial__item">
+            <a href="">
+              <img src="./img/team2.jpg" alt="">
+            </a>
+            <h3>Simply the best. Better than all the rest."</h3>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to
+              help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+              Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <h4>Alexander sakura</h4>
+            <h5>Customer</h5>
+          </div>
+          <div class="item testimonial__item">
+            <a href="">
+              <img src="./img/team3.jpg" alt="">
+            </a>
+            <h3>OMG! I cannot believe. It's Awesome"</h3>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to
+              help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+              Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <h4>John wilson</h4>
+            <h5>Customer</h5>
+          </div>
+          <div class="item testimonial__item">
+            <a href="">
+              <img src="./img/team2.jpg" alt="">
+            </a>
+            <h3>OMG! I cannot believe. It's Awesome"</h3>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to
+              help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+              Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <h4>Julia sakura</h4>
+            <h5>Customer</h5>
+          </div>
+        </div>
       </div>
     </section>
-    <footer></footer>
+   
+    <footer>
+      <div class="footer__content contain">
+        <div class="row">
+          <div class="footer__1 col-4">
+            <a href="#">
+              <h2>Diner</h2>
+            </a>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+            <div class="footer__icon">
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+            </div>
+          </div>
+
+          <div class="footer__info col-4">
+            <div class="row">
+              <div class="col-6">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Blog posts</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h3>More Info</h3>
+                <ul>
+                  <li><a href="">History</a></li>
+                  <li><a href="">Vision & Values</a></li>
+                  <li><a href="">Awards</a></li>
+                  <li><a href="">Media</a></li>
+                  <li><a href="">Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__mail col-4">
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Enter your email and receive the latest news, updates and special offers from us.</p>
+            <form>
+              <input type="email" placeholder="Your Email Address">
+              <button>Subcribe now</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="row">
+              <div class="col-8"> 
+                <p>© 2021 Diner. All rights reserved. Design by W3Layouts</p>
+              </div>
+              <div class="col-4">
+                  <ul>
+                    <li>
+                      <a href="">Careers</a>
+                    </li>
+                    <li>
+                      <a href="">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="">Contact Us</a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
 
     
     <!-- JQUERY  -->
@@ -497,6 +610,9 @@
         }
     })
     </script>
+
+    <!-- magnific popup  -->
+    <script src="./js/jquery.magnific-popup.min.js"></script>
 
  
 </body>

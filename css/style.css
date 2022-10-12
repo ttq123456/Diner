@@ -6,8 +6,7 @@
 
 html, body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f7f7f7;
-    
+    background-color: #f7f7f7;    
 }
 
 
@@ -578,6 +577,10 @@ header .navbar-light .navbar-toggler-icon i {
 }
 
 /* testimonial */
+.testimonial {
+    background-color: white;
+}
+
 .testimonial__content .owl-carousel .owl-item img{
     width: 85px;
     height: 85px;
@@ -585,6 +588,175 @@ header .navbar-light .navbar-toggler-icon i {
     margin: auto;
 }
 
+.testimonial .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .testimonial__item {
     text-align: center;
+    padding: 0 300px;
+}
+
+.testimonial__item h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.testimonial__item h3::before{
+    content: open-quote;
+    display: block;
+    font-size: 50px;
+    color: #ff6600;
+    font-family: initial;
+    margin-top: 20px;
+}
+
+.testimonial__item p {
+    color: rgb(22 28 45 / 70%);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.testimonial__item h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testimonial__item h5 {
+    font-size: 18px;
+    opacity: 0.8;
+    font-style: normal;
+}
+
+.testimonial__content .owl-theme .owl-dots .owl-dot {
+    margin-top: 20px;
+}
+
+.testimonial__content .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #ff6600;
+}
+
+/* footer  */
+footer {
+    background-color: black;
+    padding-top: 70px;
+}
+
+.footer__1 h2 {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.footer__1 h2:hover {
+    color: #ff6600;
+}
+
+.footer__1 p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+    margin: 10px 0;
+}
+
+.footer__icon a {
+    margin-right: 10px;
+    color:#ff6600;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: white;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+    transition: all .3s;
+}
+
+.footer__icon a:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+.footer__content h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__info li, .copyright li {
+    list-style: none;
+}
+
+.footer__info a, .copyright a {
+    font-size: 17px;
+    line-height: 26px;
+    display: inline-block;
+    color: #a5a2a1;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: all .5s;
+}
+
+.footer__info a:hover, .copyright a:hover {
+    color: #ff6600;
+}
+
+.footer__mail input {
+    padding: 14px 20px;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    outline: none;
+    width: 100%;
+    color: rgb(22 28 45 / 70%);
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.footer__mail input:focus {
+    border: 1px solid #ff6600;
+}
+
+.footer__mail button {
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 100%;
+    transition: 0.3s ease-in;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-color: #ff6600;
+    color: white;
+}
+
+.footer__mail p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+}
+
+.copyright {
+    border-top: solid 1px #a5a2a1;
+}
+.copyright li {
+    display: inline;
+}
+
+.copyright p {
+    color: #ddd;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.copyright li {
+    padding-right: 30px;
 }
