@@ -344,8 +344,17 @@
       </div>
     </section>
     <section class="diner__video">
-      
+      <div class="container video__content">
+        <a href="#smalldialog" class="open-popup-link popup-with-zoom-anim">
+          <i class="fa-solid fa-play"></i>
+        </a>
+        <div id="smalldialog" class="mfp-hide">
+         
+          <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+        </div>
+      </div>
     </section>
+
     <section class="blog sectionStyle">
       <div class="contain">
         <div class="title">
@@ -614,6 +623,28 @@
     <!-- magnific popup  -->
     <script src="./js/jquery.magnific-popup.min.js"></script>
 
- 
+    <script>
+      $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true 
+      });
+    </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".popup-with-zoom-anim").magnificPopup({
+        type: "inline",
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: "auto",
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: "my-mfp-zoom-in"
+      });
+    });
+    
+  </script>
 </body>
 </html>
