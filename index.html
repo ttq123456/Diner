@@ -27,73 +27,86 @@
     <!-- MAIN CSS  -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <nav class="Dinerlogo contain navbar navbar-light">
-            <a class="navbar-brand" href="#">Diner</a>
-            <form>
-                <input type="text" placeholder="Search here">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#DinerNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                  <i class="fa fa-bars"></i>
-              </span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="DinerNavbar">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">404</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Landing Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Shot Codes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Email</a>
-                </li>
-                
-                
-              </ul>
-            </div>
-           
-    
-        </nav>
-        
-
-    </header>
-    
+<body id="myBody">
     <section class="Dinercarousel">
-      <div class="contain carousel__content">
-        <h1>The Only Thing <br> We Love More Than Food <br> Is You!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit. Ea <br> ipsum sed consequuntur illum facere.</p>
-        <button>
-            Read More
-            <i class="fa fa-chevron-right"> </i>
-        </button>
+      <div class="container">
+        <header>
+          <nav class="Dinerlogo navbar navbar-light">
+              <a class="navbar-brand" href="#">Diner</a>
+              <div class="header__right">
+                <form>
+                    <input type="text" placeholder="Search here">
+                    <i class="fa-solid fa-magnifying-glass tk"></i>
+      
+                    <button type="button" class="btn" id="switchButton"  title="Click to switch theme">
+                      <i class="fa-regular fa-moon"></i>
+                      <i class="fa-regular fa-sun"></i>
+                    </button>
+                </form>
+             
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#DinerNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+               </button>
+            
+              </div>
+              
+              <div class="collapse navbar-collapse" id="DinerNavbar">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">404</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Landing Page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shot Codes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Email</a>
+                  </li>
+                  
+                  
+                </ul>
+              </div>
+             
+      
+          </nav>
+          
+  
+        </header>
+        <div class="carousel__content">
+          <h1>The Only Thing We Love More Than Food
+            Is You!</h1>
+          
+          <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit. Ea ipsum sed consequuntur illum facere.</p>
+          <button>
+              Read More
+              <i class="fa fa-chevron-right"> </i>
+          </button>
+        </div>
       </div>
+      
     </section>
 
     <section class="aboutUs sectionStyle">
-      <div class="aboutUs__content contain">
+      <div class="aboutUs__content container">
         <div class="aboutUs__left title">
           <h6>About Us</h6>
           <h3>We found our creative space that is open for you.</h3>
@@ -106,17 +119,16 @@
     </section>
 
     <section class="booking">
-      <div class="container-fluid">
         <div class="row booking__content">
-          <div class="col-6 booking__image">
+          <div class="col-12 col-lg-6 booking__image">
           
           </div>
-          <div class="col-6 booking__text">
+          <div class="col-12 col-lg-6 booking__text">
             <h6>More than 3000 Restaurants</h6>
             <h1>Book a table easly at the best price</h1>
             <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
             <div class="row booking__item">
-              <div class="col-6 ">
+              <div class="col-6">
                 <i class="fa-solid fa-thumbs-up"></i>
                 <a href="">Best Deals</a>
                 <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
@@ -129,7 +141,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
     </section>
 
     <section class="categories sectionStyle">
@@ -139,7 +151,7 @@
           <h3>Popular Categories</h3>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g1.jpg" alt="">
         
@@ -150,7 +162,7 @@
             </div>
             
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g2.jpg" alt="">
             </div>
@@ -160,7 +172,7 @@
             </div>
             
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g3.jpg" alt="">
             </div>
@@ -171,7 +183,7 @@
             
           </div>
 
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g4.jpg" alt="">
             </div>
@@ -181,7 +193,7 @@
             </div>
             
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g5.jpg" alt="">
             </div>
@@ -191,7 +203,7 @@
             </div>
             
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="categories__item">
               <img src="./img/g6.jpg" alt="">
             </div>
@@ -206,10 +218,10 @@
       </div>
     </section>
    
-    <section class="dinerMenu sectionStyle">
+    <section class="dinerMenu sectionStyle" >
       <div class="contain">
         <div class="row dinerMenu__content">
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa-solid fa-users"></i>
@@ -222,7 +234,7 @@
             </div>
            
           </div>
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa-solid fa-shield-halved"></i>
@@ -235,7 +247,7 @@
             </div>
            
           </div>
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa fa-thermometer-full"></i>
@@ -248,7 +260,7 @@
             </div>
            
           </div>
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa fa-american-sign-language-interpreting"></i>
@@ -261,7 +273,7 @@
             </div>
            
           </div>
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa fa-paint-brush"></i>
@@ -274,7 +286,7 @@
             </div>
            
           </div>
-          <div class="col-4 dinerMenu__item">
+          <div class="col-12 col-md-6 col-lg-4 dinerMenu__item">
             <div class="dinerMenu__header">
                 <div class="dinerMenu__icon">
                   <i class="fa fa-eraser"></i>
@@ -292,9 +304,9 @@
     </section>
 
     <section class="delicious sectionStyle">
-      <div class="container-fluid delicious__content">
+      <div class=" delicious__content">
         <div class="delicious__text">
-          <h1>Deliciousness jumping into <br> the mouth.</h1>
+          <h1>Deliciousness jumping into the mouth.</h1>
           <div class="delicious__button">
             <a class="button__white" href="">Read more
               <i class="fa-solid fa-angle-right"></i>
@@ -312,28 +324,28 @@
     <section class="number">
       <div class="container">
         <div class="row">
-          <div class="col-3">
+          <div class="col-6 col-md-3 ">
             <div class="number__item">
               <i class="fa-regular fa-building"></i>
               <h3 class="counter">15,100</h3>
               <h5>Branches</h5>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="number__item">
               <i class="fa-solid fa-utensils"></i>
               <h3 class="counter">19,256</h3>
               <h5>Food Items</h5>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="number__item">
               <i class="fa-solid fa-users"></i>
               <h3 class="counter">12,100</h3>
               <h5>Chefs</h5>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
             <div class="number__item">
               <i class="fa-regular fa-face-smile"></i>
               <h3 class="counter">2,560</h3>
@@ -343,16 +355,19 @@
         </div>
       </div>
     </section>
-    <section class="diner__video">
-      <div class="container video__content">
-        <a href="#smalldialog" class="open-popup-link popup-with-zoom-anim">
-          <i class="fa-solid fa-play"></i>
-        </a>
-        <div id="smalldialog" class="mfp-hide">
-         
-          <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+    <section class="diner__video sectionStyle">
+      <div class="container">
+        <div class="video__content">
+          <a href="#smalldialog" class="open-popup-link popup-with-zoom-anim">
+            <i class="fa-solid fa-play"></i>
+          </a>
+          <div id="smalldialog" class="mfp-hide">
+           
+            <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+          </div>
         </div>
       </div>
+      
     </section>
 
     <section class="blog sectionStyle">
@@ -362,7 +377,7 @@
           <h3>Blog Posts</h3>
         </div>
         <div class="row">
-          <div class="col-4 blog__item">
+          <div class="col-12 col-md-6 col-lg-4 blog__item">
             <div class="card mb-3">
               <div class="card__header">
                 <img src="./img/banner1.jpg" class="card-img-top" alt="">
@@ -390,7 +405,7 @@
              
             </div>
           </div>
-          <div class="col-4 blog__item">
+          <div class="col-12 col-md-6 col-lg-4 blog__item">
             <div class="card mb-3">
               <div class="card__header">
                 <img src="./img/banner3.jpg" class="card-img-top" alt="">
@@ -418,7 +433,7 @@
              
             </div>
           </div>
-          <div class="col-4 blog__item">
+          <div class="col-12 col-md-6 col-lg-4 blog__item">
             <div class="card mb-3">
               <div class="card__header">
                 <img src="./img/banner1.jpg" class="card-img-top" alt="">
@@ -508,7 +523,7 @@
     <footer>
       <div class="footer__content contain">
         <div class="row">
-          <div class="footer__1 col-4">
+          <div class="footer__1 col-12 col-sm-6 col-lg-4">
             <a href="#">
               <h2>Diner</h2>
             </a>
@@ -530,7 +545,7 @@
             </div>
           </div>
 
-          <div class="footer__info col-4">
+          <div class="footer__info col-12 col-sm-6 col-lg-4">
             <div class="row">
               <div class="col-6">
                 <h3>Useful Links</h3>
@@ -554,7 +569,7 @@
               </div>
             </div>
           </div>
-          <div class="footer__mail col-4">
+          <div class="footer__mail col-12 col-sm-6 col-lg-4">
             <h3>Subscribe to our Newsletter</h3>
             <p>Enter your email and receive the latest news, updates and special offers from us.</p>
             <form>
@@ -565,10 +580,10 @@
         </div>
         <div class="copyright">
           <div class="row">
-              <div class="col-8"> 
+              <div class="col-12 col-lg-8"> 
                 <p>© 2021 Diner. All rights reserved. Design by W3Layouts</p>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-lg-4">
                   <ul>
                     <li>
                       <a href="">Careers</a>
@@ -645,6 +660,14 @@
       });
     });
     
+  </script>
+
+  <script>
+    document.getElementById("switchButton").onclick = function () {
+      document.getElementById("myBody").classList.toggle("dark");
+};
+
+
   </script>
 </body>
 </html>
